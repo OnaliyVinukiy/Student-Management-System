@@ -1,0 +1,11 @@
+C:\Users\Onaliy Vinukiy\Documents\GitHub\Student-Management-System\Skills International\Skills International\bin\Debug\Skills International.exe.config
+C:\Users\Onaliy Vinukiy\Documents\GitHub\Student-Management-System\Skills International\Skills International\bin\Debug\Skills International.exe
+C:\Users\Onaliy Vinukiy\Documents\GitHub\Student-Management-System\Skills International\Skills International\bin\Debug\Skills International.pdb
+C:\Users\Onaliy Vinukiy\Documents\GitHub\Student-Management-System\Skills International\Skills International\obj\Debug\Skills International.csproj.AssemblyReference.cache
+C:\Users\Onaliy Vinukiy\Documents\GitHub\Student-Management-System\Skills International\Skills International\obj\Debug\Skills International.csproj.SuggestedBindingRedirects.cache
+C:\Users\Onaliy Vinukiy\Documents\GitHub\Student-Management-System\Skills International\Skills International\obj\Debug\Skills_International.Form1.resources
+C:\Users\Onaliy Vinukiy\Documents\GitHub\Student-Management-System\Skills International\Skills International\obj\Debug\Skills_International.Properties.Resources.resources
+C:\Users\Onaliy Vinukiy\Documents\GitHub\Student-Management-System\Skills International\Skills International\obj\Debug\Skills International.csproj.GenerateResource.cache
+C:\Users\Onaliy Vinukiy\Documents\GitHub\Student-Management-System\Skills International\Skills International\obj\Debug\Skills International.csproj.CoreCompileInputs.cache
+C:\Users\Onaliy Vinukiy\Documents\GitHub\Student-Management-System\Skills International\Skills International\obj\Debug\Skills International.exe
+C:\Users\Onaliy Vinukiy\Documents\GitHub\Student-Management-System\Skills International\Skills International\obj\Debug\Skills International.pdb
