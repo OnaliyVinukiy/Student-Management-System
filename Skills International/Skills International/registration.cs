@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Skills_International
 {
-    public partial class Form2 : Form
+    public partial class registration : Form
     {
-        public Form2()
+        public registration()
         {
             InitializeComponent();
         }
