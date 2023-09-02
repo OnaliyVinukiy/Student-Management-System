@@ -32,14 +32,14 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.txtuser = new System.Windows.Forms.TextBox();
-            this.txtpw = new System.Windows.Forms.TextBox();
             this.btnClear = new System.Windows.Forms.Button();
             this.btnLogin = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtuser = new System.Windows.Forms.TextBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.btnExit = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.txtpw = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -75,24 +75,6 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "Password";
             // 
-            // txtuser
-            // 
-            this.txtuser.BackColor = System.Drawing.Color.White;
-            this.txtuser.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtuser.Location = new System.Drawing.Point(241, 58);
-            this.txtuser.Name = "txtuser";
-            this.txtuser.Size = new System.Drawing.Size(243, 30);
-            this.txtuser.TabIndex = 4;
-            // 
-            // txtpw
-            // 
-            this.txtpw.BackColor = System.Drawing.Color.White;
-            this.txtpw.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtpw.Location = new System.Drawing.Point(241, 112);
-            this.txtpw.Name = "txtpw";
-            this.txtpw.Size = new System.Drawing.Size(243, 30);
-            this.txtpw.TabIndex = 5;
-            // 
             // btnClear
             // 
             this.btnClear.BackColor = System.Drawing.Color.LightSeaGreen;
@@ -119,20 +101,31 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.txtpw);
+            this.groupBox1.Controls.Add(this.txtuser);
             this.groupBox1.Controls.Add(this.checkBox1);
             this.groupBox1.Controls.Add(this.btnLogin);
             this.groupBox1.Controls.Add(this.btnClear);
-            this.groupBox1.Controls.Add(this.txtpw);
-            this.groupBox1.Controls.Add(this.txtuser);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.ForeColor = System.Drawing.Color.Black;
             this.groupBox1.Location = new System.Drawing.Point(124, 271);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(560, 336);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Login";
+            // 
+            // txtuser
+            // 
+            this.txtuser.BackColor = System.Drawing.Color.Gainsboro;
+            this.txtuser.ForeColor = System.Drawing.Color.Black;
+            this.txtuser.Location = new System.Drawing.Point(240, 58);
+            this.txtuser.Multiline = true;
+            this.txtuser.Name = "txtuser";
+            this.txtuser.Size = new System.Drawing.Size(240, 39);
+            this.txtuser.TabIndex = 9;
             // 
             // checkBox1
             // 
@@ -168,10 +161,21 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // txtpw
+            // 
+            this.txtpw.BackColor = System.Drawing.Color.Gainsboro;
+            this.txtpw.ForeColor = System.Drawing.Color.Black;
+            this.txtpw.Location = new System.Drawing.Point(240, 113);
+            this.txtpw.Multiline = true;
+            this.txtpw.Name = "txtpw";
+            this.txtpw.PasswordChar = '*';
+            this.txtpw.Size = new System.Drawing.Size(240, 39);
+            this.txtpw.TabIndex = 10;
+            this.txtpw.TextChanged += new System.EventHandler(this.txtpw_TextChanged);
+            // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.Tan;
             this.ClientSize = new System.Drawing.Size(800, 720);
             this.Controls.Add(this.groupBox1);
@@ -198,13 +202,13 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtuser;
-        private System.Windows.Forms.TextBox txtpw;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Button btnExit;
         public System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.TextBox txtuser;
+        private System.Windows.Forms.TextBox txtpw;
     }
 }
 

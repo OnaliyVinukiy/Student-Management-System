@@ -17,10 +17,10 @@ namespace Skills_International
         SqlConnection conn = new SqlConnection();
         public Login()
         {
-            conn.ConnectionString= @"Data Source = LAPTOP - AHHL9HD4; Initial Catalog = Student; Integrated Security = True; Pooling = False";
+            conn.ConnectionString = "Data Source=LAPTOP-AHHL9HD4;Initial Catalog=Student;Integrated Security=True;";
             InitializeComponent();
         }
-
+      
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -30,21 +30,17 @@ namespace Skills_International
 
       
 
-        private void txtpw_Enter(object sender, EventArgs e)
-        {
-            txtpw.Text = "";
-            txtpw.UseSystemPasswordChar=true;
-        }
+       
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-            if (checkBox1.Checked==true) 
+            if (checkBox1.Checked)
             {
-                txtpw.UseSystemPasswordChar = false;
+                txtpw.UseSystemPasswordChar = true; // Show password character
             }
             else
             {
-                txtpw.UseSystemPasswordChar=true;
+                txtpw.UseSystemPasswordChar = false; // Show actual characters
             }
         }
 
@@ -75,7 +71,7 @@ namespace Skills_International
             conn.Open();
             string user = txtuser.Text;
             string pw = txtpw.Text;
-            string query = "SELECT * FROM login WHERE username = ' " + user + " ' AND password = ' " + pw + " ' ";
+            string query = "SELECT * FROM login WHERE username = '" + user + "' AND password = '" + pw + "'";
             SqlCommand cmd = new SqlCommand(query, conn);
             SqlDataReader sqlData = cmd.ExecuteReader();
             if (sqlData.HasRows)
@@ -86,9 +82,14 @@ namespace Skills_International
             }
             else
             {
-                MessageBox.Show("Invalid Login credentials, please check Username and Password and try again", "exit", MessageBoxButtons.OKCancel,MessageBoxIcon.Error);
+                MessageBox.Show("Invalid Login credentials, please check Username and Password and try again", "Exit", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             conn.Close();
+        }
+
+        private void txtpw_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
