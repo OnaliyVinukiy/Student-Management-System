@@ -22,3 +22,4 @@ C:\Users\Onaliy Vinukiy\Documents\GitHub\Student-Management-System\Skills Intern
 C:\Users\Onaliy Vinukiy\Documents\GitHub\Student-Management-System\Skills International\Skills International\obj\Debug\Skills_International.Home.resources
 C:\Users\Onaliy Vinukiy\Documents\GitHub\Student-Management-System\Skills International\Skills International\obj\Debug\Skills_International.StudentDetails.resources
 C:\Users\Onaliy Vinukiy\Documents\GitHub\Student-Management-System\Skills International\Skills International\obj\Debug\Skills_International.Dashboard.resources
+C:\Users\Onaliy Vinukiy\Documents\GitHub\Student-Management-System\Skills International\Skills International\obj\Debug\Skills_International.Profile.resources

@@ -90,5 +90,12 @@ namespace Skills_International
                     return 0; // or any other default value you prefer
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Home homenew = new Home();
+            homenew.Show();
+        }
     }
 }

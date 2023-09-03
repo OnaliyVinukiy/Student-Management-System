@@ -16,5 +16,12 @@ namespace Skills_International
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Home homenew = new Home();
+            homenew.Show();
+        }
     }
 }
