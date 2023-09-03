@@ -21,3 +21,4 @@ C:\Users\Acer\OneDrive - NSBM\Third Sem\Student-Management-System\Skills Interna
 C:\Users\Onaliy Vinukiy\Documents\GitHub\Student-Management-System\Skills International\Skills International\obj\Debug\Skills_International.regis.resources
 C:\Users\Onaliy Vinukiy\Documents\GitHub\Student-Management-System\Skills International\Skills International\obj\Debug\Skills_International.Home.resources
 C:\Users\Onaliy Vinukiy\Documents\GitHub\Student-Management-System\Skills International\Skills International\obj\Debug\Skills_International.StudentDetails.resources
+C:\Users\Onaliy Vinukiy\Documents\GitHub\Student-Management-System\Skills International\Skills International\obj\Debug\Skills_International.Dashboard.resources

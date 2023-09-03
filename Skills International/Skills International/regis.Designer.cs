@@ -50,6 +50,7 @@
             this.ClientSize = new System.Drawing.Size(800, 743);
             this.Controls.Add(this.linkLabel1);
             this.Name = "regis";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "regis";
             this.ResumeLayout(false);
             this.PerformLayout();
