@@ -16,5 +16,12 @@ namespace Skills_International
         {
             InitializeComponent();
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Hide();
+            Home homenew = new Home();
+            homenew.Show();
+        }
     }
 }

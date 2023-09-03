@@ -35,11 +35,11 @@
             this.btnClear = new System.Windows.Forms.Button();
             this.btnLogin = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtpw = new System.Windows.Forms.TextBox();
             this.txtuser = new System.Windows.Forms.TextBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.btnExit = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.txtpw = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -117,6 +117,18 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Login";
             // 
+            // txtpw
+            // 
+            this.txtpw.BackColor = System.Drawing.Color.Gainsboro;
+            this.txtpw.ForeColor = System.Drawing.Color.Black;
+            this.txtpw.Location = new System.Drawing.Point(240, 113);
+            this.txtpw.Multiline = true;
+            this.txtpw.Name = "txtpw";
+            this.txtpw.PasswordChar = '*';
+            this.txtpw.Size = new System.Drawing.Size(240, 39);
+            this.txtpw.TabIndex = 10;
+            this.txtpw.TextChanged += new System.EventHandler(this.txtpw_TextChanged);
+            // 
             // txtuser
             // 
             this.txtuser.BackColor = System.Drawing.Color.Gainsboro;
@@ -153,6 +165,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.Color.White;
             this.pictureBox1.Image = global::Skills_International.Properties.Resources.Picture1__1_;
             this.pictureBox1.Location = new System.Drawing.Point(311, 36);
             this.pictureBox1.Name = "pictureBox1";
@@ -160,18 +173,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            // 
-            // txtpw
-            // 
-            this.txtpw.BackColor = System.Drawing.Color.Gainsboro;
-            this.txtpw.ForeColor = System.Drawing.Color.Black;
-            this.txtpw.Location = new System.Drawing.Point(240, 113);
-            this.txtpw.Multiline = true;
-            this.txtpw.Name = "txtpw";
-            this.txtpw.PasswordChar = '*';
-            this.txtpw.Size = new System.Drawing.Size(240, 39);
-            this.txtpw.TabIndex = 10;
-            this.txtpw.TextChanged += new System.EventHandler(this.txtpw_TextChanged);
             // 
             // Login
             // 

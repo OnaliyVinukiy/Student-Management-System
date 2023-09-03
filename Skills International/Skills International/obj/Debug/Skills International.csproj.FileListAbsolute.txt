@@ -9,7 +9,6 @@ C:\Users\Onaliy Vinukiy\Documents\GitHub\Student-Management-System\Skills Intern
 C:\Users\Onaliy Vinukiy\Documents\GitHub\Student-Management-System\Skills International\Skills International\obj\Debug\Skills International.exe
 C:\Users\Onaliy Vinukiy\Documents\GitHub\Student-Management-System\Skills International\Skills International\obj\Debug\Skills International.pdb
 C:\Users\Onaliy Vinukiy\Documents\GitHub\Student-Management-System\Skills International\Skills International\obj\Debug\Skills_International.Login.resources
-C:\Users\Onaliy Vinukiy\Documents\GitHub\Student-Management-System\Skills International\Skills International\obj\Debug\Skills_International.registration.resources
 C:\Users\Acer\OneDrive - NSBM\Third Sem\Student-Management-System\Skills International\Skills International\obj\Debug\Skills International.csproj.AssemblyReference.cache
 C:\Users\Acer\OneDrive - NSBM\Third Sem\Student-Management-System\Skills International\Skills International\obj\Debug\Skills International.csproj.SuggestedBindingRedirects.cache
 C:\Users\Acer\OneDrive - NSBM\Third Sem\Student-Management-System\Skills International\Skills International\obj\Debug\Skills_International.Login.resources
@@ -19,3 +18,8 @@ C:\Users\Acer\OneDrive - NSBM\Third Sem\Student-Management-System\Skills Interna
 C:\Users\Acer\OneDrive - NSBM\Third Sem\Student-Management-System\Skills International\Skills International\obj\Debug\Skills International.csproj.CoreCompileInputs.cache
 C:\Users\Acer\OneDrive - NSBM\Third Sem\Student-Management-System\Skills International\Skills International\obj\Debug\Skills International.exe
 C:\Users\Acer\OneDrive - NSBM\Third Sem\Student-Management-System\Skills International\Skills International\obj\Debug\Skills International.pdb
+C:\Users\Onaliy Vinukiy\Documents\GitHub\Student-Management-System\Skills International\Skills International\obj\Debug\Skills_International.regis.resources
+C:\Users\Onaliy Vinukiy\Documents\GitHub\Student-Management-System\Skills International\Skills International\obj\Debug\Skills_International.Home.resources
+C:\Users\Onaliy Vinukiy\Documents\GitHub\Student-Management-System\Skills International\Skills International\obj\Debug\Skills_International.StudentDetails.resources
+C:\Users\Onaliy Vinukiy\Documents\GitHub\Student-Management-System\Skills International\Skills International\obj\Debug\Skills_International.Dashboard.resources
+C:\Users\Onaliy Vinukiy\Documents\GitHub\Student-Management-System\Skills International\Skills International\obj\Debug\Skills_International.Profile.resources
