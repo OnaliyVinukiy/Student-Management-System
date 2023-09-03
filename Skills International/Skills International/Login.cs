@@ -77,7 +77,7 @@ namespace Skills_International
             if (sqlData.HasRows)
             {
                 this.Hide();
-                registration registrationnew = new registration();
+                regis registrationnew = new regis();
                 registrationnew.Show();
             }
             else

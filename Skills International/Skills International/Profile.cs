@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace Skills_International
 {
-    public partial class regis : Form
+    public partial class Profile : Form
     {
-        public regis()
+        public Profile()
         {
             InitializeComponent();
-        }
-
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            this.Hide();
-            Home homenew = new Home();
-            homenew.Show();
         }
     }
 }
